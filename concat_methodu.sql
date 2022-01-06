@@ -13,6 +13,6 @@ INSERT INTO customer VALUES(444, 'mehmet','okur','mus','erkek',98);
 
 select concat('Adiniz ve Soyadiniz: ',ad , ' ',soyad ) ad_soyad from customer;
 
-select concat(musteri_no, '.)',ad,'  ',soyad)ad_soyad,sehir ,cinsiyet,puan from customer;
+select concat(musteri_no, '.)',upper(ad),'  ',upper(soyad))ad_soyad,sehir ,cinsiyet,puan from customer;
 
 

@@ -215,7 +215,11 @@ adres=coalesce(adres, 'adres girilmedi yet'),
     limit 10;
     
     select*from kisiler limit 10,10;
-    select*from kisiler limit 10;
+    SELECT 
+    *
+FROM
+    kisiler
+LIMIT 10;
     
     select *from kisiler 
     order by maas desc limit 3;

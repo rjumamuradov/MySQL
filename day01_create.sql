@@ -19,12 +19,14 @@ INSERT INTO student VALUES('1004', 'MARY BROWN', 17);
 ===========================================================*/
 INSERT INTO student(id,name,age) VALUES('1001','samet ay',24);
 
-select*from student
+-- select*from student
 
 
 /* ========================================================= 
                    TABLO SILME(CRUD- Drop)
 ===========================================================*/
+
+drop table urunler;
 
 
 
